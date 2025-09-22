@@ -1,0 +1,102 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: linear-gradient(135deg, #0d1b2a, #3d0a4e);
+    color: #f0f0f0;
+}
+
+/* Título principal */
+h1 {
+    text-align: center;
+    color: #42f57b;
+    margin-bottom: 20px;
+}
+
+/* Subtítulos */
+h2 {
+    color: #9a5cff;
+    border-left: 6px solid #42f57b;
+    padding-left: 10px;
+    margin-top: 30px;
+}
+
+/* Formularios */
+form {
+    background: #162447;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.4);
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 12px;
+    color: #d1c4e9;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 95%;
+    padding: 8px;
+    margin-top: 4px;
+    border: 1px solid #42f57b;
+    border-radius: 6px;
+    background-color: #1f4068;
+    color: #fff;
+}
+
+input:focus {
+    border-color: #9a5cff;
+    outline: none;
+}
+
+/* Botón */
+button {
+    background: linear-gradient(90deg, #42f57b, #9a5cff);
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: linear-gradient(90deg, #9a5cff, #42f57b);
+    transform: scale(1.05);
+}
+
+/* Tabla */
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: #1b263b;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: center;
+    border-bottom: 1px solid #42f57b;
+}
+
+th {
+    background: #3d0a4e;
+    color: #42f57b;
+}
+
+td {
+    color: #e0e0e0;
+}
+
+tr:hover {
+    background: rgba(66, 245, 123, 0.1);
+}
