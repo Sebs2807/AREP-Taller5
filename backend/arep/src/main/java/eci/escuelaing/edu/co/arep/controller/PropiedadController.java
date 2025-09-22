@@ -1,6 +1,8 @@
-package eci.escuelaing.edu.co.arep;
+package eci.escuelaing.edu.co.arep.controller;
 
-import eci.escuelaing.edu.co.arep.*;
+import eci.escuelaing.edu.co.arep.model.Propiedad;
+import eci.escuelaing.edu.co.arep.service.PropiedadService;
+
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

@@ -1,8 +1,13 @@
-package eci.escuelaing.edu.co.arep;
+package eci.escuelaing.edu.co.arep.service;
 
 import java.util.List;
 import java.util.Optional;
 
+import eci.escuelaing.edu.co.arep.model.Propiedad;
+import eci.escuelaing.edu.co.arep.repository.PropiedadRepository;
+import org.springframework.stereotype.Service;  
+
+@Service
 public class PropiedadService {
     private final PropiedadRepository propiedadRepository;
 

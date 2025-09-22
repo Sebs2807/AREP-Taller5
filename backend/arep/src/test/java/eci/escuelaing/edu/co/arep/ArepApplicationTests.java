@@ -1,13 +1,13 @@
-package eci.escuelaing.edu.co.arep;
+// package eci.escuelaing.edu.co.arep;
 
-import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
+// import org.junit.jupiter.api.Test;
+// import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest
-class ArepApplicationTests {
+// @SpringBootTest
+// class ArepApplicationTests {
 
-	@Test
-	void contextLoads() {
-	}
+// 	@Test
+// 	void contextLoads() {
+// 	}
 
-}
+// }

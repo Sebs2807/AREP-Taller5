@@ -1,4 +1,4 @@
-package eci.escuelaing.edu.co.arep;
+package eci.escuelaing.edu.co.arep.model;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;

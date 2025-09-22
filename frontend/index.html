@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Gestión de Propiedades</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+
+<body>
+    <h1>CRUD de Propiedades</h1>
+
+    <h2>Crear Propiedad</h2>
+    <form id="form-propiedad">
+        <label>Dirección: <input type="text" id="direccion" required></label><br>
+        <label>Precio: <input type="number" id="precio" step="0.01" required></label><br>
+        <label>Tamaño: <input type="number" id="tamano" step="0.01"></label><br>
+        <label>Descripción: <input type="text" id="descripcion"></label><br>
+        <button type="submit">Guardar</button>
+    </form>
+
+    <h2>Lista de Propiedades</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Dirección</th>
+                <th>Precio</th>
+                <th>Tamaño</th>
+                <th>Descripción</th>
+                <th>Acciones</th>
+            </tr>
+        </thead>
+        <tbody id="tabla-propiedades"></tbody>
+    </table>
+</body>
+
+</html>
