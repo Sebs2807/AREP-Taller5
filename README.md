@@ -61,7 +61,7 @@ Las clases principales del sistema son:
 
 ### 1. Configuración local
 1. Clonar el repositorio.  
-2. Crear archivo `application.properties` con credenciales de RDS:
+2. Crear archivo `application.properties` dentro de directorio /resources con credenciales de RDS:
    ```properties
    spring.application.name=arep
    spring.datasource.url=jdbc:mysql://<ENDPOINT_RDS>:3306/propiedades-db
