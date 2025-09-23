@@ -53,7 +53,7 @@ Las clases principales del sistema son:
 
 ### Diagrama simplificado
 
-
+![Diagrama de clases](/images/diagrama%20clases.drawio.png)
 
 ---
 
@@ -73,7 +73,7 @@ Las clases principales del sistema son:
 3. Construir el proyecto con Maven:
    ```
    mvn clean package
-## 🚀 Despliegue en AWS
+## 🛠️ Despliegue en AWS
 
 1. EC2: Crear una instancia Ubuntu y abrir puertos 22 (SSH), 8080 (backend) y 80 (frontend).
 2. Asignar una IP elástica a la instancia de EC2, para este caso
@@ -102,3 +102,28 @@ Las clases principales del sistema son:
    ```
 7. Finalmente el front queda servido en http://44.218.226.220 y consume el back en http://44.218.226.220:8080/propiedades
 
+## 📈 Evidencias del funcionamiento
+- Front en funcionamiento desde la ip elástica de EC2
+![alt text](images/image-1.png)
+![alt text](images/image.png)
+
+- Instancia en ejecución
+![alt text](images/image-2.png)
+
+- Base de datos disponible
+![alt text](images/image-3.png)
+
+### Pruebas desde postman
+- Obtener todas las propiedades
+![alt text](images/image-4.png)
+- Obtener propiedad por id
+![alt text](images/image-6.png)
+- Crear una propiedad
+![alt text](images/image-7.png)
+- Actualizar una propiedad
+![alt text](images/image-8.png)
+- Eliminar una propiedad
+![alt text](images/image-5.png)
+
+### Video de prueba
+[Video probando el despliegue](https://drive.google.com/uc?id=1PQOV73NgQK5Rlv8t8ItOr3YzI_71Gypt&export=download)
