@@ -1,3 +1,6 @@
+![Java](https://img.shields.io/badge/Java-21-orange)
+![Maven](https://img.shields.io/badge/Maven-3.9+-blue)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.5.6-green)
 # Property Management System (AREP-Taller5)
 
 ## 📌 Project Summary
