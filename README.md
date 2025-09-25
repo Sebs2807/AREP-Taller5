@@ -51,10 +51,13 @@ Las clases principales del sistema son:
 - **`PropiedadController` (Controlador)**  
   Expone los endpoints REST `/propiedades` para interacción con el frontend.
 
-### Diagrama simplificado
+## Diagramas
 
+### Diagrama de clases
 ![Diagrama de clases](/images/diagrama%20clases.drawio.png)
 
+### 🌐 Diagrama de Infraestructura
+![Diagrama de infraestructura](/images/diagrama%20de%20infraestructura.drawio.png)
 ---
 
 ## 🚀 Deployment Instructions
