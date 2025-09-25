@@ -53,7 +53,7 @@ Las clases principales del sistema son:
 
 ## Diagramas
 
-### Diagrama de clases
+### 📊 Diagrama de clases
 ![Diagrama de clases](/images/diagrama%20clases.drawio.png)
 
 ### 🌐 Diagrama de Infraestructura
@@ -64,7 +64,7 @@ Las clases principales del sistema son:
 
 ### 1. Configuración local
 1. Clonar el repositorio.  
-2. Crear archivo `application.properties` dentro de directorio /resources con credenciales de RDS:
+2. Crear archivo `application.properties` dentro de directorio ***src/main/resources/*** con credenciales de RDS:
    ```properties
    spring.application.name=arep
    spring.datasource.url=jdbc:mysql://<ENDPOINT_RDS>:3306/propiedades-db
@@ -106,17 +106,17 @@ Las clases principales del sistema son:
 7. Finalmente el front queda servido en http://44.218.226.220 y consume el back en http://44.218.226.220:8080/propiedades
 
 ## 📈 Evidencias del funcionamiento
-- Front en funcionamiento desde la ip elástica de EC2
+- 🌐 Front en funcionamiento desde la ip elástica de EC2
 ![alt text](images/image-1.png)
 ![alt text](images/image.png)
 
-- Instancia en ejecución
+- ⚙️ Instancia en ejecución
 ![alt text](images/image-2.png)
 
-- Base de datos disponible
+- 💾 Base de datos disponible
 ![alt text](images/image-3.png)
 
-### Pruebas desde postman
+### 🧪 Pruebas desde postman
 - Obtener todas las propiedades
 ![alt text](images/image-4.png)
 - Obtener propiedad por id
@@ -128,5 +128,5 @@ Las clases principales del sistema son:
 - Eliminar una propiedad
 ![alt text](images/image-5.png)
 
-### Video de prueba
+### 🎥 Video de prueba
 [Video probando el despliegue](https://drive.google.com/uc?id=1PQOV73NgQK5Rlv8t8ItOr3YzI_71Gypt&export=download)
